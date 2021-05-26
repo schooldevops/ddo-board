@@ -5,6 +5,10 @@
 /target/classes/static/**
 /src/test/javascript/coverage/
 
+/datadir
+
+
+
 ######################
 # Node
 ######################

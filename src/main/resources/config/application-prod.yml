@@ -34,8 +34,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mariadb://localhost:3306/ddoboard?useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: root
-    password:
+    username: ddoboard
+    password: ddoboard
     hikari:
       poolName: Hikari
       auto-commit: false
