@@ -48,6 +48,12 @@ public class CacheConfiguration {
             createCache(cm, com.schooldevops.ddoboard.domain.User.class.getName());
             createCache(cm, com.schooldevops.ddoboard.domain.Authority.class.getName());
             createCache(cm, com.schooldevops.ddoboard.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.schooldevops.ddoboard.domain.Board.class.getName());
+            createCache(cm, com.schooldevops.ddoboard.domain.Board.class.getName() + ".posts");
+            createCache(cm, com.schooldevops.ddoboard.domain.Post.class.getName());
+            createCache(cm, com.schooldevops.ddoboard.domain.AttachGroup.class.getName());
+            createCache(cm, com.schooldevops.ddoboard.domain.AttachGroup.class.getName() + ".attaches");
+            createCache(cm, com.schooldevops.ddoboard.domain.Attach.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
