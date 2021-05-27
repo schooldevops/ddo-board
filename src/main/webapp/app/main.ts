@@ -26,6 +26,11 @@ import '../content/scss/vendor.scss';
 import UserOAuth2Service from '@/entities/user/user.oauth2.service';
 /* tslint:disable */
 
+import BoardService from '@/entities/board/board.service';
+import PostService from '@/entities/post/post.service';
+import AttachGroupService from '@/entities/attach-group/attach-group.service';
+import AttachService from '@/entities/attach/attach.service';
+import CommentService from '@/entities/comment/comment.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -81,6 +86,11 @@ new Vue({
     metricsService: () => new MetricsService(),
 
     userOAuth2Service: () => new UserOAuth2Service(),
+    boardService: () => new BoardService(),
+    postService: () => new PostService(),
+    attachGroupService: () => new AttachGroupService(),
+    attachService: () => new AttachService(),
+    commentService: () => new CommentService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

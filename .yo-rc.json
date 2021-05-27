@@ -41,6 +41,8 @@
     "jwtSecretKey": "MWVlNmZmNmM3ZDU0NGE0MzFkNWIyYzA0YTU2NjM2ZjZmMDljZmNlY2IzNGNmMTVmNjI4NWIzZjlkMjAzMTQ3Mzg4ZDE1ODZiYWU4OTBmOWY4NjIyNTc3NWMzNWRmNjBhOGY2NDIyYWNkMDZkNmUxYmU5YjM3OWUwODIyNDM5MzY=",
     "clientPackageManager": "npm",
     "otherModules": [],
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "entities": ["Board", "Post", "AttachGroup", "Attach", "Comment"],
+    "lastLiquibaseTimestamp": 1622081006000
   }
 }
