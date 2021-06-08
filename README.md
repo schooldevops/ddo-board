@@ -5,6 +5,8 @@ This application was generated using JHipster 7.0.1, you can find documentation 
 ## Manual
 
 - [01.초기화](./Manuals/01.INIT.md)
+- [02.DataModel](./Manuals/02.DataModel.md)
+- [03.DataModel](./Manuals/03.API_CALL.md)
 
 ## Development
 
